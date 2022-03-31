@@ -2,7 +2,7 @@
 Max Patch for the VIVI synthesizer
 
 # How to Install
-Download or clone the repo and open the VIVIMainPatch. At this time only only a Windows version is availble. So, you will get alot of error messages opening on macOS. Other than that you will be greeted by the default parameters being setup by the screen reader (which I could fix but I personally find it funny).
+Download or clone the repo and open the VIVIMainPatch. The project has been edited for windows and macOS so open the mainpatch in the corresponding version to get started. Other than that you will be greeted by the default parameters being setup by the screen reader (which I could fix but I personally find it funny).
 
 # Functionality
 Outside of presentation mode the keyboard functionality is explained; except for one shortcut.Lowercase t is used to turn on and off the hover functionality (beware on accessibility functionality has been implemented for this function). 
@@ -16,6 +16,7 @@ audible feedback.
 * No sound- Ensure the gate parameter is at -70db, the freeze parameter is unfrozen, the volume is at 0db, and that audio is turned on.
 * The input is very low/output- I recommend using an external microphone with the instrument for more control rather than any inbuilt laptop/PC mic.
 * The hover command isn't working - I have it turned off by default (sorry) so press lowercase t to turn it on (I have no feedback or notification set up for this so beaware).
+* The Mac version at this time has a rounding issue that will be fixed in the near future.
 * If any other issues araise or have any construct comments get in touch.
 
 # Do I need any externals to get it to work
