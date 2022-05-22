@@ -160,6 +160,7 @@
 					"embed" : 1,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-126",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -4511,7 +4512,6 @@
 					"embed" : 1,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-7",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -12609,7 +12609,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1354.266685823599801, 505.000001072883606, 50.0, 22.0 ],
-													"text" : "-49.5"
+													"text" : "-36."
 												}
 
 											}
@@ -12732,7 +12732,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1095.108339940508131, 505.000001072883606, 50.0, 22.0 ],
-													"text" : "-24.5"
+													"text" : "6."
 												}
 
 											}
@@ -12855,7 +12855,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 858.091691657901151, 505.000001072883606, 50.0, 22.0 ],
-													"text" : "-7.5"
+													"text" : "-30."
 												}
 
 											}
@@ -12978,7 +12978,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 624.266679386297938, 508.333336234092712, 50.0, 22.0 ],
-													"text" : "1.5"
+													"text" : "-15."
 												}
 
 											}
@@ -13101,7 +13101,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 395.77500156064815, 514.000001072883606, 50.0, 22.0 ],
-													"text" : "-27."
+													"text" : "-10."
 												}
 
 											}
@@ -13224,7 +13224,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 155.999992938232424, 517.000001430511475, 50.0, 22.0 ],
-													"text" : "-31.5"
+													"text" : "6."
 												}
 
 											}
@@ -25187,13 +25187,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-89",
-													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1787.758364602923848, 505.000001072883606, 32.0, 49.0 ],
-													"text" : "0.377763"
+													"text" : "0."
 												}
 
 											}
@@ -25316,7 +25315,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1549.266685823599801, 505.000001072883606, 50.0, 22.0 ],
-													"text" : "5000."
+													"text" : "20000."
 												}
 
 											}
@@ -25434,13 +25433,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-63",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1290.108339940508131, 505.000001072883606, 50.0, 35.0 ],
-													"text" : "63.157895"
+													"text" : "0."
 												}
 
 											}
@@ -25563,7 +25561,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1050.091691657901265, 505.000001072883606, 72.0, 22.0 ],
-													"text" : "407.894737"
+													"text" : "0."
 												}
 
 											}
@@ -25681,13 +25679,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-41",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 819.266679386297938, 508.333336234092712, 50.0, 35.0 ],
-													"text" : "1.112632"
+													"text" : "1.01"
 												}
 
 											}
@@ -25805,13 +25802,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-10",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 590.775001560648207, 514.000001072883606, 50.0, 35.0 ],
-													"text" : "4.651316"
+													"text" : "16."
 												}
 
 											}
@@ -41880,15 +41876,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "MacFloatingPointFix.maxpat",
-				"bootpath" : "~/GitTower/VIVIMaxPatch/Utilities",
-				"patcherrelativepath" : "./Utilities",
+				"bootpath" : "~/GitTower/VIVIMaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ParseAccordingToOS.maxpat",
-				"bootpath" : "~/GitTower/VIVIMaxPatch/Utilities",
-				"patcherrelativepath" : "./Utilities",
+				"bootpath" : "~/GitTower/VIVIMaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
